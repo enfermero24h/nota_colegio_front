@@ -1,3 +1,35 @@
+
+# Sistema de Gestión de Notas - Frontend
+
+Este es el frontend del Sistema de Gestión de Notas desarrollado con React. El sistema permite gestionar estudiantes, cursos, materias y calificaciones, así como generar usuarios aleatorios y calcular la letra más utilizada en sus nombres.
+
+## Requisitos
+
+- Node.js (versión 14 o superior)
+- npm o yarn
+
+## Configuración del Proyecto
+
+### 1. Clonar el repositorio
+
+## bash
+git clone https://github.com/enfermero24h/nota_colegio_front.git
+cd tu-repositorio/nota_colegio_front
+
+## Instalar dependencias
+npm install
+
+## Configurar la base URL de la API
+## Crea un archivo src/config.js y agrega la siguiente configuración:
+## javascript
+export const API_BASE_URL = 'http://127.0.0.1:8000/api';
+
+## Ejecutar el servidor de desarrollo
+npm start
+
+
+JOSE MOISES MURILLO RIVAS 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
